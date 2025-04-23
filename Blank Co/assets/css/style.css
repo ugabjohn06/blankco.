@@ -1,0 +1,122 @@
+
+
+body {
+  font-family: Noto Sans;
+  line-height: 1.6;
+  width: 100%;
+  background-color: #333;
+}
+
+#mountain{
+  width: 300px;
+  height: auto;
+  margin-left: 4.5rem;
+  transition: transform ease 0.3s;
+}
+
+#mountain:hover{
+  transform: scale(1.08);
+}
+
+#logo{
+  width: 300px;
+  height: auto;
+  transition: opacity ease 0.3s;
+  transition: transform ease 0.3s;
+}
+
+#logo:hover{
+  transform: translateY(5px);
+  opacity: 0.7;
+}
+
+#dog{
+  width: 300px;
+  transition: transform ease 0.3s;
+}
+
+#dog:hover{
+  transform: scale(1.08);
+}
+
+#bridge{
+  width: 350px;
+  transition: transform ease 0.3s;
+}
+
+#bridge:hover{
+  transform: scale(1.08);
+}
+
+#man{
+  width: 200px;
+  transition: transform ease 0.3s;
+}
+
+#man:hover{
+  transform: scale(1.08);
+}
+
+#footer-logo{
+  width: 200px;
+  margin-left: 80px;
+  margin-top: 1.5rem;
+}
+
+h3 {
+  margin-top: 0;
+  color: #ffff;
+}
+
+h4 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #ffff;
+}
+
+p {
+  margin-bottom: 15px;
+  color: #ffff;
+}
+
+.gallery-item:hover {
+  background-color: #f9f9f9;
+}
+
+.read-more-btn:hover {
+  background-color: black;
+  text-decoration: 0;
+  border: 0;
+}
+
+.quick-link:hover {
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  #hero-section, #gallery-section, #footer-section {
+      flex-direction: column;
+  }
+  
+  .hero-image, .gallery-item, .footer-image {
+      margin-bottom: 20px;
+      margin-right: 0;
+      width: 100%;
+  }
+  
+  .gallery-item {
+      height: 200px;
+  }
+  
+  .footer-links {
+      margin-bottom: 20px;
+      margin-right: 0;
+      width: 100%;
+  }
+  
+}
+
+html::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+

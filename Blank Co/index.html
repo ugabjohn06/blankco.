@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blank Co.</title>
+    
+    <style>
+
+        #header {
+            position: fixed;
+            top: 0;
+            right: 0;
+            margin-bottom: 10rem;
+            background-color: black;
+            width: 100%;
+            height: 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+        }
+        
+        #hero-section {
+            width: 100%;
+            display: flex;
+            padding: 30px;
+            margin: 20px 0;
+            margin-top: 8rem;
+            right: 0;
+        }
+        
+        #gallery-section {
+            display: flex;
+            justify-content: center;
+            padding: 30px;
+            margin: 20px 0;
+            gap: 340px;
+            margin-top: 100px;
+            margin-bottom: 100px;
+        }
+        
+        #footer-section {
+            position:static;
+            display: flex;
+            padding: 30px;
+            gap: 8rem;
+            background-color: #1b1b1b;
+            width: 100%;
+            margin-left: -1rem;
+            margin-top: 10rem;
+        }
+        
+    
+        .logo-container {
+            padding: 15px;
+            text-align: center;
+            width: 180px;
+        }
+        
+        .nav-menu {
+            padding: 15px;
+            text-align: center;
+            margin-right: 8rem;
+        }
+        
+        .nav-link {
+            font-size: 18px;
+            font-weight: 500;
+            margin: 0 10px;
+            text-decoration: none;
+            color: #ffffff;
+            transition: font-weight ease 0.3s;
+            transition: transform ease 0.3s;
+            display: inline-block;
+        }
+
+        .nav-menu a:hover{
+            font-weight: 400;
+            transform: scale(1.2);
+        }
+
+        .hero-image {
+            width: 300px;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 20px;
+        }
+        
+        .hero-content {
+            flex: 1;
+        }
+
+        .hero-text{
+            margin-left: 3rem;
+        }
+        
+        .read-more-btn {
+            font-size: 18px;
+            display: inline-block;
+            padding: 5px 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-decoration: none;
+            color: #ffff;
+            margin-top: 10px;
+        }
+        
+        .gallery-item {
+            width: 180px;
+            height: 140px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .footer-image {
+            width: 90px;
+            height: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 30px;
+        }
+        
+        .footer-links {
+            width: 120px;
+            margin-right: 30px;
+        }
+        
+        .footer-content {
+            flex: 1;
+        }
+        
+        .quick-link {
+            display: block;
+            color: #ffff;
+            text-decoration: none;
+            margin-bottom: 5px;
+        }
+    </style>
+    
+
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Nav-Bar -->
+    <div id="header">
+        <div class="logo-container">
+            <a href="index.html" class="logo"> <img src="assets/images/Blank Co. (Banner).png" id="logo"></a>
+        </div>
+        <div class="nav-menu">
+            <a href="#" class="nav-link">Home</a> 
+            <a href="#" class="nav-link">About</a> 
+            <a href="#" class="nav-link">Contact</a> 
+            <a href="#" class="nav-link">Info</a>
+        </div>
+    </div>
+    
+    <!-- Hero section -->
+    <div id="hero-section">
+        <div class="hero-image">
+            <img src="/assets/images/mountain with fog.png" id="mountain">
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h3>The Standard Lorem Ipsum Passage, Used Since the 1500s</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                <p>  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <a href="#" class="read-more-btn">Read more</a>
+            </div>  
+        </div>
+    </div>
+    
+    <!-- Gallery -->
+    <div id="gallery-section">
+        
+        <div class="gallery-item">
+            <span style="color: #333;"><img src="/assets/images/dog.png" id="dog"></span>
+        </div>
+        
+        <div class="gallery-item">
+            <span style="color: #333;"><img src="/assets/images/bridge.png" id="bridge"></span>
+        </div>
+        
+        <div class="gallery-item" style="color: #990000;">
+            <img src="/assets/images/crosswalk.png" id="man">
+        </div>
+    </div>
+    
+    <!-- Footer -->
+    <div id="footer-section">
+        <div class="footer-image">
+            <img src="assets/images/Blank Co..png" id="footer-logo">
+        </div>
+        <div class="footer-links">
+            <h4>Quick Links</h4>
+            <a href="#" class="quick-link">Home</a>
+            <a href="#" class="quick-link">About</a>
+            <a href="#" class="quick-link">Contact</a>
+            <a href="#" class="quick-link">Info</a>
+        </div>
+        <div class="footer-content">
+            <h3>Project title</h3>
+            <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatque laudantium"</p>
+        </div>
+    </div>
+</body>
+</html>
